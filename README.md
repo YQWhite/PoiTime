@@ -39,7 +39,7 @@
 ## 🛠️ 使用方法 / Usage
 
 ### 安装步骤 / Installation
-1. 下载 [Release](https://github.com/yourname/PoiTime/releases) 并解压。  
+1. 下载 [Release](https://github.com/YQWhite/PoiTime/releases) 并解压。  
    Download the release and extract files.
 2. 将舰娘语音包放置于 `voices/<ID>/` 目录下（如 `voices/144/0100.mp3`）。  
    Place voice files in `voices/<ID>/` (e.g., `voices/144/0100.mp3`).
