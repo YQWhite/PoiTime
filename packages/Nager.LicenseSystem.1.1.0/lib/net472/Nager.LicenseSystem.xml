@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nager.LicenseSystem</name>
+    </assembly>
+    <members>
+        <member name="T:Nager.LicenseSystem.LicenseInfo">
+            <summary>
+            License Info
+            </summary>
+        </member>
+        <member name="P:Nager.LicenseSystem.LicenseInfo.CreatedAt">
+            <summary>
+            The creation date of the license
+            </summary>
+        </member>
+        <member name="P:Nager.LicenseSystem.LicenseInfo.IssuedTo">
+            <summary>
+            The entity to which the license is issued
+            </summary>
+        </member>
+        <member name="P:Nager.LicenseSystem.LicenseInfo.ValidUntil">
+            <summary>
+            The expiration date of the license
+            </summary>
+        </member>
+        <member name="T:Nager.LicenseSystem.LicenseKeyConfiguration">
+            <summary>
+            License Key Configuration
+            </summary>
+        </member>
+        <member name="P:Nager.LicenseSystem.LicenseKeyConfiguration.Part1">
+            <summary>
+            Public Key Part1
+            </summary>
+        </member>
+        <member name="P:Nager.LicenseSystem.LicenseKeyConfiguration.Part2">
+            <summary>
+            Public Key Part2
+            </summary>
+        </member>
+        <member name="T:Nager.LicenseSystem.LicenseKeyValidator">
+            <summary>
+            License Key Validator
+            </summary>
+        </member>
+        <member name="M:Nager.LicenseSystem.LicenseKeyValidator.#ctor(Nager.LicenseSystem.LicenseKeyConfiguration)">
+            <summary>
+            License Key Validator
+            </summary>
+            <param name="licenseKeyConfiguration"></param>
+        </member>
+        <member name="M:Nager.LicenseSystem.LicenseKeyValidator.Validate(System.String,Nager.LicenseSystem.LicenseInfo@)">
+            <summary>
+            Validate License Key
+            </summary>
+            <param name="licenseKey"></param>
+            <param name="licenseInfo"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
